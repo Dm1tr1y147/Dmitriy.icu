@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /uploadtohost
+Sitemap: https://about-dmitriy.tk/sitemap.xml
