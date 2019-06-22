@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /uploadtohost
-Sitemap: https://about-dmitriy.tk/sitemap.xml
+Sitemap: https://dmitriy.icu/sitemap.xml
