@@ -62,13 +62,10 @@ nav {
 	top: 0;
 	left: 0;
 	z-index: 1000;
-<<<<<<< HEAD
 	transition: box-shadow 0.5s ease-in-out;
 }
 nav#shadow {
         box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
-=======
->>>>>>> c27a4029688d84a604259109737c953b92088855
 }
 #logo {
 	display: block;
@@ -133,11 +130,8 @@ main img:hover {
 	cursor: pointer;
 }
 
-<<<<<<< HEAD
 #popup, #popupBg {
-=======
 #popup, #popup_bg {
->>>>>>> c27a4029688d84a604259109737c953b92088855
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -150,19 +144,16 @@ main img:hover {
 	z-index: 1001;
 	display: none;
 }
-<<<<<<< HEAD
 #popupBg {
 	z-index: 1005;
 	background-color: #fff;
 }
 #popupImg {
-=======
 #popup_bg {
 	z-index: 1005;
 	background-color: #fff;
 }
 #popup_img {
->>>>>>> c27a4029688d84a604259109737c953b92088855
 	max-width: 100vw;
 	max-height: 100vh;
 	z-index: 1006;
@@ -175,10 +166,7 @@ footer {
 	grid-template-columns: 1fr 1fr;
 	padding: 10vh;
 	background-color: #f8f8f8;
-<<<<<<< HEAD
 	box-shadow: inset 0 3px 6px -2px rgba(32,33,36,0.28);
-=======
->>>>>>> c27a4029688d84a604259109737c953b92088855
 }
 address, #social {
 	display: grid;
@@ -312,8 +300,5 @@ footer {
 	-webkit-animation: showen 1s;
     animation: showen 1s;
   }
-<<<<<<< HEAD
 }
-=======
 }
->>>>>>> c27a4029688d84a604259109737c953b92088855
