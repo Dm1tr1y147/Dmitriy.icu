@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 @import url('./fonts.css');
-=======
 @import url('https://fonts.googleapis.com/css?family=Wire+One|Assistant:300,400|Raleway');
->>>>>>> c27a4029688d84a604259109737c953b92088855
 @-webkit-keyframes showen {
     from {
     	opacity: 0;
@@ -66,13 +63,10 @@ nav {
 	top: 0;
 	left: 0;
 	z-index: 1000;
-<<<<<<< HEAD
 	transition: box-shadow 0.5s ease-in-out;
 }
 nav#shadow {
 	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
-=======
->>>>>>> c27a4029688d84a604259109737c953b92088855
 }
 #logo {
 	display: block;
@@ -138,10 +132,7 @@ header p {
 	width: 100vw;
 	overflow: hidden;
 	-webkit-overflow-scrolling: touch;
-<<<<<<< HEAD
 	box-shadow: inset 0 3px 6px -2px rgba(32,33,36,0.28);
-=======
->>>>>>> c27a4029688d84a604259109737c953b92088855
 }
 #main p {
 	width: 100%;
@@ -201,10 +192,7 @@ footer {
 	grid-template-columns: 1fr 1fr;
 	padding: 10vh;
 	background-color: #f8f8f8;
-<<<<<<< HEAD
 	box-shadow: inset 0 3px 6px -2px rgba(32,33,36,0.28);
-=======
->>>>>>> c27a4029688d84a604259109737c953b92088855
 }
 address, #social {
 	display: grid;
