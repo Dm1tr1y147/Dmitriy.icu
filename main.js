@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $(function() {
 var title = document.title;
 $(window).scroll(function() {
@@ -37,7 +36,6 @@ $("main img").click(function () {
 		});
 });
 });
-=======
 var mywindow = $(window);
 var mypos = mywindow.scrollTop();
 var up = false;
@@ -79,4 +77,3 @@ $("main img").click(function () {
 			}, 800);
 		});
 });
->>>>>>> c27a4029688d84a604259109737c953b92088855
