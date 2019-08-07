@@ -131,7 +131,6 @@ main img:hover {
 }
 
 #popup, #popupBg {
-#popup, #popup_bg {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -148,7 +147,6 @@ main img:hover {
 	z-index: 1005;
 	background-color: #fff;
 }
-#popupImg {
 #popup_bg {
 	z-index: 1005;
 	background-color: #fff;
@@ -300,5 +298,4 @@ footer {
 	-webkit-animation: showen 1s;
     animation: showen 1s;
   }
-}
 }
