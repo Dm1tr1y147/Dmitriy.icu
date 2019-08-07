@@ -54,26 +54,3 @@ mywindow.scroll(function () {
     mypos = newscroll;
 });
 
-$(".nav-toggle").click(function() {
-	$(this).toggleClass("opened");
-	$("nav ul").toggleClass("showen");
-    $("body").toggleClass("overflowhidden");
-});
-
-$('#totop').click(function(){
-    $("html,body").animate({
-        scrollTop: 0
-    }, 2000);
-});
-
-$("main img").click(function () {
-		var src = $(this).attr('src');
-		$("body").append("<div id='popup'>"+"<div id='popupBg'></div>"+"<img src='"+src+"' id='popupImg' />"+"</div>");
-		$("#popup").css("display", "flex").hide().fadeIn(800);
-		$("#popup").click(function(){	   
-			$("#popup").fadeOut(800);
-			setTimeout(function() {
-			  $("#popup").remove();
-			}, 800);
-		});
-});
