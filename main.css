@@ -30,6 +30,7 @@
 	overflow: -moz-scrollbars-none;
 	-moz-appearance: menuimage;
 	font-style: normal;
+	scrollbar-width: none;
 }
 *::-webkit-scrollbar { 
     display: none; 

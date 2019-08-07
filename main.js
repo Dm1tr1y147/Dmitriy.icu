@@ -1,7 +1,7 @@
 $(function() {
 var title = document.title;
 $(window).scroll(function() {
-	var height = ((title == "Dmitriy Shishkov") ? $(window).height() : 0);
+	var height = ((title == "Dmitriy Shishkov") ? $(window).height() : $(window).height()/10);
 	height = height - height / 9;
 	if($(this).scrollTop() > height) {
 		$("nav").attr('id', 'shadow');
