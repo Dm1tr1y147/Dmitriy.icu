@@ -36,21 +36,4 @@ $("main img").click(function () {
 		});
 });
 });
-var mywindow = $(window);
-var mypos = mywindow.scrollTop();
-var up = false;
-var newscroll;
-mywindow.scroll(function () {
-    newscroll = mywindow.scrollTop();
-    if (newscroll > mypos && !up) {
-        $('nav').stop().slideToggle();
-        $('#galactikka').stop().slideToggle();
-        up = !up;
-    } else if(newscroll < mypos && up) {
-        $('nav').stop().slideToggle();
-        $('#galactikka').stop().slideToggle();
-        up = !up;
-    }
-    mypos = newscroll;
-});
 
