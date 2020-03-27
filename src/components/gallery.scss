@@ -1,0 +1,17 @@
+.galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3vh;
+    padding: 10vh 10vw;
+}
+.galleryList {
+    width: 100%;
+
+    .galleryItem {
+        max-width: 50vw;
+
+        &:nth-child(2n) {
+            float: right;
+        }
+    }
+}

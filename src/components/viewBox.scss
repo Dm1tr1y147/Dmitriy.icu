@@ -1,0 +1,16 @@
+.viewBox {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--background-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    
+    img {
+        object-fit: contain;
+    }
+}

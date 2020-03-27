@@ -1,9 +1,0 @@
-@import url('https://fonts.googleapis.com/css?family=Assistant|Kaushan+Script&display=swap');
-#root {
-    padding-top: 10vh;
-}
-a, p, span {
-    font-family: 'Assistant', sans-serif;
-    font-size: 3vh;
-    font-weight: 300;
-}

@@ -8,10 +8,12 @@ import {
     Navbar,
     Home,
     Gallery,
+    Footer,
 } from './components'
-import './app.css';
+import './app.scss';
 
-export default function App() {
+const App = () => {
+
     return (
         <Router>
             <Navbar />
@@ -23,6 +25,8 @@ export default function App() {
                     <Home />
                 </Route>
             </Switch>
+            <Footer />
         </Router>
     );
 }
+export default App;

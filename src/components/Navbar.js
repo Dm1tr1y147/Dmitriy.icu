@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.scss'
 import { ReactComponent as Logo } from './logo.svg'
-export default function Navbar () {
+const Navbar = () => {
     return (
         <nav>
             <Link to="/">
@@ -15,3 +15,4 @@ export default function Navbar () {
         </nav>
     );
 }
+export default Navbar;
