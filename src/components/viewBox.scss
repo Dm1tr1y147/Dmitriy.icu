@@ -4,6 +4,7 @@
     bottom: 0;
     left: 0;
     right: 0;
+    width: 100vw;
     background-color: var(--background-color);
     cursor: pointer;
     display: flex;
@@ -12,5 +13,10 @@
     
     img {
         object-fit: contain;
+    }
+}
+@media (orientation: portrait) {
+    .viewBox img {
+        width: 100vw;
     }
 }

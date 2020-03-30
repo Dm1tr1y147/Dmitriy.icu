@@ -9,7 +9,7 @@ import {
     Home,
     Gallery,
     Footer,
-} from './components'
+} from './components';
 import './app.scss';
 
 const App = () => {

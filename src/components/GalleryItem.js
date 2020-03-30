@@ -7,8 +7,8 @@ const GalleryItem = props => {
     const src = 'http://localhost:8000/' + props.src;
 
     return (
-        <div className="galleryItem" onClick={ () => setShowViewbox(true) }>
-            <img alt="My shots" src={src} />
+        <div className="galleryItem" >
+            <img alt="My shots" src={src} onClick={ () => setShowViewbox(true) } />
 
             {showViewBox && <ViewBox src={src} click={setShowViewbox} /> }
         </div>

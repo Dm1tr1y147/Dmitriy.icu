@@ -1,14 +1,12 @@
 .galleryItem {
-    margin-bottom: 3vh;
 
     & > img {
         z-index: 5;
         max-width: 100%;
-        max-height: 75vh;
         cursor: pointer;
 
         &:hover {
-            filter: contrast(75%) brightness(120%);
+            filter: var(--image-hover-color);
         }
     }
 }
