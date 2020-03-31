@@ -1,14 +1,15 @@
 const express = require('express')
+const path = require('path')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const fs = require('fs')
 
 const app = express()
-const port = 8000
+const port = 433
 
 app.use(cors())
 
-app.get('/', (req, res) => {
+app.get('/api/list', (req, res) => {
     fs.readdir('./assets/', (err, items) => {
         result = items.map(el => 'image/' + el)
         const pageSize = req.query.size || 3;
@@ -32,5 +33,11 @@ app.get('/image/:name.:subname', (req, res) => {
         }
     })
 })
+
+app.use(express.static(path.join(__dirname, '../build')));
+
+app.get('*', function(req, res) {
+    res.sendFile(path.join(__dirname, '../build', 'index.html'));
+});
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
