@@ -1,0 +1,12 @@
+.galleryItem {
+
+    & > img {
+        z-index: 5;
+        max-width: 100%;
+        cursor: pointer;
+
+        &:hover {
+            filter: var(--image-hover-color);
+        }
+    }
+}

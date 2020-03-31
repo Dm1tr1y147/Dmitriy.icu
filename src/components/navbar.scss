@@ -1,0 +1,36 @@
+nav {
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    display: flex;
+    padding: 2vh 4vmax;
+    width: 100vw;
+    background-color: var(--background-navbar-color);
+    z-index: 100;
+
+    & {
+        box-shadow: var(--box-shadow);
+    }
+
+    .logo {
+        height: 6vh;
+        fill: var(--text-color);
+    }
+
+    div {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        
+        a {
+            line-height: 6vh;
+            padding: 0 1vmax;
+        }
+        .galactikka {
+            background-image: url('./galactikka_bg.jpg');
+            background-size: cover;
+            color: #ffffff;
+            border-radius: 6vh;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.galleryView {
+    h1 {
+        grid-column: span 3;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 10vh;
+        text-align: center;
+        margin-top: 10vh;
+        padding: 7vh 0;
+        color: var(--text-color);
+    }
+}
