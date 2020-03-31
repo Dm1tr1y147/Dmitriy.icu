@@ -23,7 +23,7 @@ const Gallery = props => {
     useEffect( () => {
         const fetchData = async () => {
             try {
-                const res = await fetch(`${process.env.REACT_APP_API_URL}/?size=${size}&page=${currentPage}`);
+                const res = await fetch(`${process.env.REACT_APP_API_URL}/api/list/?size=${size}&page=${currentPage}`);
 
                 if (!res.ok) {
                     throw Error(res.statusText);

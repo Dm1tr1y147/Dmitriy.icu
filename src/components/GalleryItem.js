@@ -4,7 +4,7 @@ import './GalleryItem.scss';
 
 const GalleryItem = props => {
     const [showViewBox, setShowViewbox] = useState(false);
-    const src = 'http://localhost:8000/' + props.src;
+    const src = process.env.REACT_APP_API_URL + '/' + props.src;
 
     return (
         <div className="galleryItem" >
