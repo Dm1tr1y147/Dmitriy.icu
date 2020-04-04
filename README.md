@@ -1,4 +1,4 @@
-[dmitriy.icu](dmitriy.icu)
+[https://dmitriy.icu](dmitriy.icu)
 
 Here I save source code of my personal site. Enjoy looking it through.
 To run the code use 
